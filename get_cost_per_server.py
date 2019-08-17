@@ -104,7 +104,6 @@ def get_Cost_2(instances,hours,price) :
                     tempTuple = (key_min, 1)
                     tempList.append(tempTuple)
                     break
-        print(temp_hours)
         result['total_cost'] =  '$'+str(temp_cost)
         result['services'] = tempList
         result_List.append(result)

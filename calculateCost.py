@@ -5,7 +5,8 @@ def get_costs(instances,hours,cpus,price):
             print(result)
         elif cpus == -1 :
             result = get_Cost_2(instances,hours,price)
+            print(result)
         else :
             result  = get_Cost_3(instances,hours,price)
-
+            print(result)
 
